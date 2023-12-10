@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SudutJarakDialogBase</class>
+ <widget class="QDialog" name="SudutJarakDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>295</width>
+    <height>317</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sudut dan Jarak</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1" colspan="4">
+    <widget class="QLabel" name="label_3">
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string>      Koordinat Awal</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>X             :</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Y             :</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1" colspan="4">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>      Azimuth dan Jarak</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Azimuth  :</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Jarak(m) :</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1" colspan="2">
+    <widget class="QLabel" name="label_10">
+     <property name="text">
+      <string>EPSG :</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="3" colspan="3">
+    <widget class="QLineEdit" name="crs"/>
+   </item>
+   <item row="6" column="6">
+    <widget class="QPushButton" name="gambar">
+     <property name="text">
+      <string>Plot!</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1" colspan="2">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>Atribut</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="label_8">
+     <property name="text">
+      <string>Kolom        :</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1" colspan="6">
+    <widget class="QLineEdit" name="kolom"/>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="label_11">
+     <property name="text">
+      <string>Tipe data  :</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1" colspan="6">
+    <widget class="QLineEdit" name="tipe"/>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="label_9">
+     <property name="text">
+      <string>Nilai           :</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1" colspan="6">
+    <widget class="QLineEdit" name="nilai"/>
+   </item>
+   <item row="11" column="0" colspan="2">
+    <widget class="QPushButton" name="add_atribut">
+     <property name="text">
+      <string>Tambah Atribut</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="5">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>19</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="11" column="6">
+    <widget class="QPushButton" name="poligon_selesai">
+     <property name="text">
+      <string>Finish Poligon</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="6">
+    <widget class="QLineEdit" name="input_x"/>
+   </item>
+   <item row="2" column="1" colspan="6">
+    <widget class="QLineEdit" name="input_y">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1" colspan="6">
+    <widget class="QLineEdit" name="input_az">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1" colspan="6">
+    <widget class="QLineEdit" name="input_d">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="3">
+    <widget class="QPushButton" name="add_poligon">
+     <property name="text">
+      <string>Buat Poligon</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
